@@ -11,10 +11,6 @@ func _fillRectangle(x1, y1, x2, y2) -> void:
 			var fill_coords = Vector2i(x, y)
 			self.set_cell(fill_coords, 0, atlas_coords)
 
-	# var starting_coords = Vector2i(starting_x, starting_y)
-	# self.set_cell(fill_coords, 0, atlas_coords)
-	# self.set_cell(starting_coords, 0, atlas_coords)
-
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
