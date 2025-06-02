@@ -1,16 +1,20 @@
 extends TileMapLayer
 
-func _drawRectangle(width, height, starting_x, starting_y) -> void:
-	var fill_coords = Vector2i(width, height)
-	var starting_coords = Vector2i(starting_x, starting_y)
+func _fillRectangle(x1, y1, x2, y2) -> void: 
+	"""
+		fills from top left corner (x1, y1) to bottom right corner (x2, y2) inclusive
+	"""
+	
 	var atlas_coords = Vector2i(1, 1)
-	self.set_cell(fill_coords, 0, atlas_coords)
-	self.set_cell(starting_coords, 0, atlas_coords)
+	for x in range(x1, x2):
+		for y in range(y1, y2):
+			var fill_coords = Vector2i(x, y)
+			self.set_cell(fill_coords, 0, atlas_coords)
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	_drawRectangle(900, 2000, 0, 0)
+	_fillRectangle(0, 0, 56, 125)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
