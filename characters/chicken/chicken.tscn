@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://dhy60dhotica"]
 
 [ext_resource type="Script" uid="uid://bwu46ashvwlg7" path="res://characters/chicken/chicken.gd" id="1_cqa2e"]
-[ext_resource type="Texture2D" uid="uid://cue56fwiqarom" path="res://Assets/Sprout Lands/Characters/Free Chicken Sprites.png" id="2_afq4u"]
+[ext_resource type="Texture2D" uid="uid://cg78t32l6gh0b" path="res://Assets/Sprout Lands/Characters/Free Chicken Sprites.png" id="2_afq4u"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_isa2u"]
 atlas = ExtResource("2_afq4u")
