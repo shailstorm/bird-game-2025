@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://csc6xclihixr5"]
 
-[ext_resource type="PackedScene" uid="uid://dhy60dhotica" path="res://characters/chicken/chicken.tscn" id="1_3gel2"]
+[ext_resource type="PackedScene" uid="uid://dhy60dhotica" path="res://bird/chicken/chicken.tscn" id="1_3gel2"]
 
 [node name="SarahTest" type="Node2D"]
 
