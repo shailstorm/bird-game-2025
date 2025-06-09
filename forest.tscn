@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=4 uid="uid://bhptmanbbjpca"]
+[gd_scene load_steps=6 format=4 uid="uid://bhptmanbbjpca"]
 
 [ext_resource type="Texture2D" uid="uid://7xyxtjho7if" path="res://Assets/Sprout Lands/Tilesets/Grass.png" id="1_stcry"]
 [ext_resource type="Script" uid="uid://nsavtw71ril8" path="res://draw_forest.gd" id="2_uq144"]
+[ext_resource type="Script" uid="uid://b6s40qaqg0lnt" path="res://nd_chickenspawner.gd" id="3_mvm06"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mvm06"]
 texture = ExtResource("1_stcry")
@@ -89,3 +90,6 @@ tile_set = SubResource("TileSet_vmuxp")
 script = ExtResource("2_uq144")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="nd_chickenspawner" type="Node2D" parent="."]
+script = ExtResource("3_mvm06")
