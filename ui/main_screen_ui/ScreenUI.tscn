@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://0supr7nevq3q"]
+
+[ext_resource type="Script" uid="uid://dn4id11lytx3v" path="res://ui/main_screen_ui/screen_ui.gd" id="1_fqihh"]
+[ext_resource type="PackedScene" uid="uid://bunev177gpt5b" path="res://ui/shop/ShopGrid.tscn" id="2_fse8f"]
+
+[node name="ScreenUi" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fqihh")
+
+[node name="ShopButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 659.0
+offset_top = 19.0
+offset_right = 1047.0
+offset_bottom = 214.0
+theme_override_font_sizes/font_size = 64
+text = "Shop"
+
+[node name="ShopGrid" parent="." instance=ExtResource("2_fse8f")]
+
+[connection signal="pressed" from="ShopButton" to="." method="_on_shop_button_pressed"]

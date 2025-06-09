@@ -1,4 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://bunev177gpt5b"]
+[gd_scene load_steps=7 format=3 uid="uid://bunev177gpt5b"]
+
+[ext_resource type="Script" uid="uid://bfatmbxrkd3eg" path="res://ui/shop/shop_grid.gd" id="1_4ubdp"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_xjffd"]
 
@@ -26,6 +28,7 @@ font_size = 60
 font_color = Color(0, 0, 0, 1)
 
 [node name="ShopGrid" type="Node2D"]
+script = ExtResource("1_4ubdp")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
