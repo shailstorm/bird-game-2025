@@ -11,15 +11,19 @@ config_version=5
 [application]
 
 config/name="bird-game-2025"
+config/tags=PackedStringArray("rc")
 run/main_scene="uid://lbpw7kq2pqqo"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=1080
-window/size/viewport_height=2400
-window/stretch/mode="canvas_items"
+window/size/viewport_width=270
+window/size/viewport_height=480
+window/size/window_width_override=1080
+window/size/window_height_override=1920
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
 
 [rendering]
 
