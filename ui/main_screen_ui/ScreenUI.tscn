@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://dn4id11lytx3v" path="res://ui/main_screen_ui/screen_ui.gd" id="1_fqihh"]
 [ext_resource type="PackedScene" uid="uid://bunev177gpt5b" path="res://ui/shop/ShopGrid.tscn" id="2_fse8f"]
 
-[node name="ScreenUi" type="Control"]
+[node name="ScreenUI" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
