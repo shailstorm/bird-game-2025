@@ -21,6 +21,10 @@ window/size/viewport_width=1080
 window/size/viewport_height=2400
 window/stretch/mode="canvas_items"
 
+[gui]
+
+theme/default_font_multichannel_signed_distance_field=true
+
 [rendering]
 
 renderer/rendering_method="mobile"
