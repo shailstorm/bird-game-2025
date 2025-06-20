@@ -1,6 +1,6 @@
 extends Node2D
 
-@onready var chicken : PackedScene = preload("res://characters/chicken/chicken.tscn")
+@onready var chicken : PackedScene = preload("res://bird/chicken/chicken.tscn")
 @onready var chicken_count : int = 10
 
 func _ready():
