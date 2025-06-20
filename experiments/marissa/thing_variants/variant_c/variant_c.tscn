@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://xvnij4ntn6m1"]
+
+[ext_resource type="PackedScene" uid="uid://dqvps2tb06xjf" path="res://experiments/marissa/base_thing.tscn" id="1_6l3ji"]
+
+[node name="BaseThing" instance=ExtResource("1_6l3ji")]
+
+[node name="AnimatedSprite2D" parent="." index="0"]
+animation = &"idle"
