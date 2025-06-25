@@ -23,4 +23,10 @@ text = "Shop"
 
 [node name="ShopGrid" parent="." instance=ExtResource("2_fse8f")]
 
+[node name="InventoryButton" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
 [connection signal="pressed" from="ShopButton" to="." method="_on_shop_button_pressed"]
+[connection signal="pressed" from="InventoryButton" to="." method="_on_inventory_button_pressed"]

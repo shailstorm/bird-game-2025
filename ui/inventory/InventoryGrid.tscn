@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://btv0y7bm54a4l"]
+
+[ext_resource type="Script" uid="uid://cpm3f6tplrw3e" path="res://ui/inventory/inventory_grid.gd" id="1_r35he"]
+
+[node name="Inventory" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_r35he")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Container" type="Container" parent="CanvasLayer"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PanelContainer" type="PanelContainer" parent="CanvasLayer/Container"]
+layout_mode = 2
