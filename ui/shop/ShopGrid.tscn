@@ -24,7 +24,7 @@ corner_radius_top_left = 40
 corner_radius_top_right = 40
 
 [sub_resource type="LabelSettings" id="LabelSettings_xjffd"]
-font_size = 60
+font_size = 12
 font_color = Color(0, 0, 0, 1)
 
 [node name="ShopGrid" type="Node2D"]
@@ -61,7 +61,7 @@ theme_override_styles/panel = SubResource("StyleBoxFlat_xjffd")
 layout_mode = 2
 
 [node name="HeaderPanelContainer" type="PanelContainer" parent="CanvasLayer/PanelContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 300)
+custom_minimum_size = Vector2(0, 35)
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_4ubdp")
 
@@ -77,17 +77,17 @@ size_flags_vertical = 3
 alignment = 1
 
 [node name="VBoxContainerLeft" type="VBoxContainer" parent="CanvasLayer/PanelContainer/VBoxContainer/HBoxContainer"]
-custom_minimum_size = Vector2(200, 0)
+custom_minimum_size = Vector2(60, 0)
 layout_mode = 2
 size_flags_horizontal = 3
 
 [node name="VBoxContainerMiddle" type="VBoxContainer" parent="CanvasLayer/PanelContainer/VBoxContainer/HBoxContainer"]
-custom_minimum_size = Vector2(200, 0)
+custom_minimum_size = Vector2(60, 0)
 layout_mode = 2
 size_flags_horizontal = 3
 
 [node name="VBoxContainerRight" type="VBoxContainer" parent="CanvasLayer/PanelContainer/VBoxContainer/HBoxContainer"]
-custom_minimum_size = Vector2(200, 0)
+custom_minimum_size = Vector2(60, 0)
 layout_mode = 2
 size_flags_horizontal = 3
 
