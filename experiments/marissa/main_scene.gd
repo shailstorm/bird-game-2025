@@ -3,7 +3,7 @@ extends Node2D
 var variant_paths = [
 	"res://experiments/marissa/variant_a/variant_a.tscn",
 	"res:///experiments/marissa/variant_b/variant_b.tscn"
-]
+
 
 func spawn_random_variant():
 	var random_index = randi() % variant_paths.size()

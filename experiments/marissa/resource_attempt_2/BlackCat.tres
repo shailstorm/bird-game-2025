@@ -1,0 +1,23 @@
+[gd_resource type="SpriteFrames" load_steps=3 format=3 uid="uid://cuskpp3inpeq4"]
+
+[ext_resource type="Texture2D" uid="uid://c80eqwnpnqfxs" path="res://experiments/marissa/resource/real-goose.svg" id="1_lvrms"]
+[ext_resource type="Texture2D" uid="uid://bigo6bi0htt83" path="res://experiments/marissa/resource/silly-goose.svg" id="2_dksqe"]
+
+[resource]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_lvrms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_dksqe")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
