@@ -1,10 +1,30 @@
-[gd_resource type="Resource" script_class="cat_type" load_steps=2 format=3 uid="uid://c7h6ty5gkxhnm"]
+[gd_resource type="Resource" script_class="cat_type" load_steps=6 format=3 uid="uid://c7h6ty5gkxhnm"]
 
 [ext_resource type="Script" uid="uid://cmxve7ntpq3bw" path="res://experiments/julia/cat_resource.gd" id="1_qvurj"]
+[ext_resource type="Texture2D" uid="uid://bxqemu57cstaw" path="res://Assets/bird_sprites/real-goose.svg" id="2_imp7g"]
+[ext_resource type="Texture2D" uid="uid://0uvvma8pj2hj" path="res://Assets/bird_sprites/real-goose2.svg" id="3_x16bf"]
+[ext_resource type="Script" uid="uid://d22hh1cnr7l0i" path="res://experiments/julia/animation_experiment.gd" id="4_kcnkh"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pphdt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_imp7g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_x16bf")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+script = ExtResource("4_kcnkh")
+metadata/_custom_type_script = "uid://d22hh1cnr7l0i"
 
 [resource]
 script = ExtResource("1_qvurj")
 name = "black_cat"
 type = 0
 meow = "blackcatmeow"
+sprite_frames = SubResource("SpriteFrames_pphdt")
 metadata/_custom_type_script = "uid://cmxve7ntpq3bw"
