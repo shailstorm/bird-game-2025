@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cqtrv3ah00puv"]
+
+[ext_resource type="Script" uid="uid://dk4kyliwjq4ua" path="res://experiments/julia/cat_1.gd" id="1_7evkc"]
+[ext_resource type="Script" uid="uid://e2a2juex481v" path="res://experiments/julia/cat_2.gd" id="2_r24ig"]
+
+[sub_resource type="GDScript" id="GDScript_la1x7"]
+script/source = "extends Node2D
+"
+
+[node name="ParentNode" type="Node2D"]
+script = SubResource("GDScript_la1x7")
+
+[node name="Cat_1" type="Node2D" parent="."]
+script = ExtResource("1_7evkc")
+
+[node name="Cat_2" type="Node2D" parent="."]
+script = ExtResource("2_r24ig")

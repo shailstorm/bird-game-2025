@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="cat_type" load_steps=2 format=3 uid="uid://c7h6ty5gkxhnm"]
+
+[ext_resource type="Script" uid="uid://cmxve7ntpq3bw" path="res://experiments/julia/cat_resource.gd" id="1_qvurj"]
+
+[resource]
+script = ExtResource("1_qvurj")
+name = "black_cat"
+type = 0
+meow = "blackcatmeow"
+metadata/_custom_type_script = "uid://cmxve7ntpq3bw"
