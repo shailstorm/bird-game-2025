@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Bird" load_steps=4 format=3 uid="uid://rgy1mh7y65iq"]
+
+[ext_resource type="Texture2D" uid="uid://30nnbusy4apu" path="res://Assets/Sprout Lands/Objects/Egg_item.png" id="1_gbxnj"]
+[ext_resource type="Script" uid="uid://bk623xtqrpnvd" path="res://experiments/marissa/Bird.gd" id="2_iv2gd"]
+[ext_resource type="Texture2D" uid="uid://bxqemu57cstaw" path="res://Assets/bird_sprites/real-goose.svg" id="3_126fv"]
+
+[resource]
+script = ExtResource("2_iv2gd")
+name = "Goose"
+texture = ExtResource("3_126fv")
+memento_texture = ExtResource("1_gbxnj")
+sound = "HONK"
+personality = "stubborn"
+metadata/_custom_type_script = "uid://bk623xtqrpnvd"
