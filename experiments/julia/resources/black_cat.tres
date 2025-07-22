@@ -27,4 +27,5 @@ name = "black_cat"
 type = 0
 meow = "blackcatmeow"
 sprite_frames = SubResource("SpriteFrames_pphdt")
+entry_chance = 0.5
 metadata/_custom_type_script = "uid://cmxve7ntpq3bw"

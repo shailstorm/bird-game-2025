@@ -1,10 +1,27 @@
-[gd_resource type="Resource" script_class="cat_type" load_steps=2 format=3 uid="uid://b7oeytq85pa6a"]
+[gd_resource type="Resource" script_class="cat_type" load_steps=5 format=3 uid="uid://b7oeytq85pa6a"]
 
 [ext_resource type="Script" uid="uid://cmxve7ntpq3bw" path="res://experiments/julia/cat_resource.gd" id="1_5kfmp"]
+[ext_resource type="Texture2D" uid="uid://pov2cfu3f6gl" path="res://Assets/bird_sprites/bad-chicken.svg" id="2_usw6m"]
+[ext_resource type="Script" uid="uid://d22hh1cnr7l0i" path="res://experiments/julia/animation_experiment.gd" id="3_03xsx"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c8jb5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_usw6m")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+script = ExtResource("3_03xsx")
+metadata/_custom_type_script = "uid://d22hh1cnr7l0i"
 
 [resource]
 script = ExtResource("1_5kfmp")
 name = "white_cat"
 type = 1
 meow = "whitecatmeow"
+sprite_frames = SubResource("SpriteFrames_c8jb5")
+entry_chance = 0.1
 metadata/_custom_type_script = "uid://cmxve7ntpq3bw"
